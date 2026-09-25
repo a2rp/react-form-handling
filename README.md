@@ -10,6 +10,7 @@ A small controlled React form that demonstrates state-driven inputs, client-side
 - Inline validation for required values and password length
 - Reset action and visible success state after a valid submit
 - Responsive fixed header and icon-only footer
+- Floating go-to-top control with smooth scrolling
 - GitHub Pages deployment
 
 ## Tech stack
