@@ -1,14 +1,15 @@
 # React Form Handling
 
-A small controlled React form that demonstrates state-driven inputs, client-side validation and clear submission feedback.
+A compact React example of controlled inputs, accessible client-side validation and clear local feedback.
 
 ![React Form Handling preview](screenshot.png)
 
 ## Features
 
 - Controlled name, email and password inputs
-- Inline validation for required values and password length
-- Reset action and visible success state after a valid submit
+- Inline, screen-reader announced validation for required values and password length
+- Reset action and visible valid-state feedback
+- Values stay in component state; nothing is submitted to or stored on a server
 - Responsive fixed header and icon-only footer
 - Floating go-to-top control with smooth scrolling
 - GitHub Pages deployment
@@ -16,6 +17,8 @@ A small controlled React form that demonstrates state-driven inputs, client-side
 ## Tech stack
 
 React, Create React App and react-icons.
+
+This is a front-end form handling example. A valid submission only displays a local confirmation state; it does not create an account or transmit the entered details.
 
 ## Run locally
 

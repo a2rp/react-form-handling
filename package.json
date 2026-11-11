@@ -2,7 +2,7 @@
     "name": "react-form-handling",
     "version": "1.0.0",
     "private": true,
-    "description": "A small controlled React form with validation and submission feedback.",
+    "description": "A controlled React form with accessible client-side validation and local feedback.",
     "homepage": "https://a2rp.github.io/react-form-handling/",
     "dependencies": {
         "react": "^18.2.0",
